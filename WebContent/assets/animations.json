@@ -1,0 +1,139 @@
+{
+  "anims": [
+    {
+      "key": "idle",
+      "frameRate": 10,
+      "repeat": -1,
+      "frames": [
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_0",
+          "duration": 10
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_1"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_2"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_3"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_4"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_idle_5"
+        }
+      ]
+    },
+    {
+      "key": "jump",
+      "frameRate": 24,
+      "frames": [
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_0"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_1"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_2"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_3"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_4"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_jump_5"
+        }
+      ]
+    },
+    {
+      "key": "run",
+      "frameRate": 13.333333333333334,
+      "repeat": -1,
+      "frames": [
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_0"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_1"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_2"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_3"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_4"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_5"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_6"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_run_7"
+        }
+      ]
+    },
+    {
+      "key": "hit",
+      "frameRate": 12,
+      "frames": [
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_0"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_1"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_2"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_3"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_4"
+        },
+        {
+          "key": "textures",
+          "frame": "animation experiment x2_slash_5"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "Phaser Editor v2",
+    "contentType": "Phaser v3 Animations"
+  }
+}

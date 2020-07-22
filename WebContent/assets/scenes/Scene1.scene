@@ -1,0 +1,93 @@
+{
+  "-app": "Scene Editor - Phaser Editor v2.1.8",
+  "-version": 1,
+  "compilerLang": "JAVA_SCRIPT_6",
+  "displayList": {
+    "-id": "8d715559-399d-42e9-9525-4a1dc0336b31",
+    "-type": "DisplayList",
+    "children": [
+      {
+        "-id": "05eef350-3aab-4185-a7f4-69d3b50e04fe",
+        "-type": "Image",
+        "children": [],
+        "variableName": "back",
+        "variableField": false,
+        "x": 396.8257751464844,
+        "y": 217.23251342773438,
+        "scaleX": 1.8268910646438599,
+        "scaleY": 1.027604341506958,
+        "textureKey": "textures",
+        "textureFrame": "back"
+      },
+      {
+        "-id": "970bfff4-3b52-4cb8-b6f6-c91156116a97",
+        "-type": "Sprite",
+        "children": [],
+        "variableName": "exit",
+        "variableField": true,
+        "x": 33.46011734008789,
+        "y": 67.55020141601562,
+        "scaleX": -1.8095334768295288,
+        "scaleY": -3.659804344177246,
+        "isTinted": true,
+        "tintFill": true,
+        "tintTopLeft": 11329444,
+        "tintTopRight": 11329444,
+        "tintBottomLeft": 11329444,
+        "tintBottomRight": 11329444
+      },
+      {
+        "-id": "f1b03d85-ea81-4dca-a4a2-9473f150600b",
+        "-type": "Sprite",
+        "children": [],
+        "variableName": "sand",
+        "variableField": true,
+        "x": 59,
+        "y": 135,
+        "scaleX": 0.4449760913848877,
+        "scaleY": 0.24778760969638824,
+        "textureKey": "textures",
+        "textureFrame": "Pad_3_3"
+      },
+      {
+        "-id": "98cb1a40-3632-46ef-86ed-99fc6a6eff71",
+        "-type": "Sprite",
+        "children": [],
+        "variableName": "sand_1",
+        "variableField": true,
+        "x": 51,
+        "y": 16,
+        "scaleX": 1.125,
+        "scaleY": 0.171875,
+        "angle": 17.611183166503906,
+        "textureKey": "textures",
+        "textureFrame": "sand"
+      },
+      {
+        "-id": "66aa171c-8403-43b5-8b96-3524441548f7",
+        "-type": "Sprite",
+        "children": [],
+        "variableName": "s_player",
+        "variableField": true,
+        "useName": true,
+        "x": 298.2262878417969,
+        "y": 375.2784729003906,
+        "textureKey": "textures",
+        "textureFrame": "animation experiment x2_idle_0",
+        "autoPlayAnimKey": "idle"
+      }
+    ]
+  },
+  "groups": {
+    "-id": "89eecac1-e75a-4225-a3ba-7ac59572410e",
+    "-type": "Groups",
+    "children": []
+  },
+  "snapWidth": 177,
+  "snapHeight": 179,
+  "backgroundColor": "0,128,64",
+  "borderHeight": 450,
+  "createMethodName": "_create",
+  "methodContextType": "SCENE",
+  "sceneKey": "Scene1"
+}

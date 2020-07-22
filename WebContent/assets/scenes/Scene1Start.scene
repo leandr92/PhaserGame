@@ -1,0 +1,42 @@
+{
+  "-app": "Scene Editor - Phaser Editor v2.1.8",
+  "-version": 1,
+  "compilerLang": "JAVA_SCRIPT_6",
+  "displayList": {
+    "-id": "87d8b79e-9aa8-42c7-a5f3-62cfb673b450",
+    "-type": "DisplayList",
+    "children": [
+      {
+        "-id": "deb39749-18b0-49d0-9355-b3d1678b4340",
+        "-type": "Image",
+        "children": [],
+        "variableName": "cool-background",
+        "variableField": false,
+        "x": 398.0123596191406,
+        "y": 225.7654266357422,
+        "textureKey": "textures",
+        "textureFrame": "cool-background"
+      },
+      {
+        "-id": "894b1d41-ddb5-49e9-89f1-fa5ff12e43b2",
+        "-type": "Text",
+        "children": [],
+        "variableName": "text",
+        "variableField": false,
+        "x": 265.9136047363281,
+        "y": 176.38272094726562,
+        "text": "1. Лавина",
+        "fontFamily": "Times New Roman",
+        "fontSize": "64px"
+      }
+    ]
+  },
+  "groups": {
+    "-id": "60b50d05-c9f6-45d9-baf7-f16202ff097a",
+    "-type": "Groups",
+    "children": []
+  },
+  "borderHeight": 450,
+  "methodContextType": "SCENE",
+  "sceneKey": "Scene1Start"
+}

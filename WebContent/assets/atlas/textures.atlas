@@ -1,0 +1,944 @@
+{
+  "version": 3,
+  "files": [
+    "Design/box.png",
+    "Design/character/animation experiment x2_death_0.png",
+    "Design/character/animation experiment x2_death_1.png",
+    "Design/character/animation experiment x2_death_2.png",
+    "Design/character/animation experiment x2_death_3.png",
+    "Design/character/animation experiment x2_death_4.png",
+    "Design/character/animation experiment x2_death_5.png",
+    "Design/character/animation experiment x2_death_6.png",
+    "Design/character/animation experiment x2_death_7.png",
+    "Design/character/animation experiment x2_idle_0.png",
+    "Design/character/animation experiment x2_idle_1.png",
+    "Design/character/animation experiment x2_idle_2.png",
+    "Design/character/animation experiment x2_idle_3.png",
+    "Design/character/animation experiment x2_idle_4.png",
+    "Design/character/animation experiment x2_idle_5.png",
+    "Design/character/animation experiment x2_jump_0.png",
+    "Design/character/animation experiment x2_jump_1.png",
+    "Design/character/animation experiment x2_jump_2.png",
+    "Design/character/animation experiment x2_jump_3.png",
+    "Design/character/animation experiment x2_jump_4.png",
+    "Design/character/animation experiment x2_jump_5.png",
+    "Design/character/animation experiment x2_run_0.png",
+    "Design/character/animation experiment x2_run_1.png",
+    "Design/character/animation experiment x2_run_2.png",
+    "Design/character/animation experiment x2_run_3.png",
+    "Design/character/animation experiment x2_run_4.png",
+    "Design/character/animation experiment x2_run_5.png",
+    "Design/character/animation experiment x2_run_6.png",
+    "Design/character/animation experiment x2_run_7.png",
+    "Design/character/animation experiment x2_slash_0.png",
+    "Design/character/animation experiment x2_slash_1.png",
+    "Design/character/animation experiment x2_slash_2.png",
+    "Design/character/animation experiment x2_slash_3.png",
+    "Design/character/animation experiment x2_slash_4.png",
+    "Design/character/animation experiment x2_slash_5.png",
+    "Design/back.jpg",
+    "Design/sand.png",
+    "Design/cool-background.png",
+    "Design/Pad_3_3.png"
+  ],
+  "settings": {
+    "pot": false,
+    "paddingX": 2,
+    "paddingY": 2,
+    "edgePadding": true,
+    "duplicatePadding": false,
+    "rotation": false,
+    "minWidth": 16,
+    "minHeight": 16,
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "square": false,
+    "stripWhitespaceX": true,
+    "stripWhitespaceY": true,
+    "alphaThreshold": 0,
+    "filterMin": "Nearest",
+    "filterMag": "Nearest",
+    "wrapX": "ClampToEdge",
+    "wrapY": "ClampToEdge",
+    "format": "RGBA8888",
+    "alias": true,
+    "outputFormat": "png",
+    "jpegQuality": 0.8999999761581421,
+    "ignoreBlankImages": true,
+    "fast": false,
+    "debug": false,
+    "silent": false,
+    "combineSubdirectories": false,
+    "flattenPaths": false,
+    "premultiplyAlpha": false,
+    "useIndexes": false,
+    "bleed": true,
+    "limitMemory": false,
+    "grid": false,
+    "atlasExtension": ".atlas",
+    "multiatlas": true,
+    "includeNumberOfFolders": 0
+  },
+  "pages": [
+    {"frames": [
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 24,
+          "w": 601,
+          "h": 542
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 601,
+          "h": 542
+        },
+        "sourceSize": {
+          "w": 601,
+          "h": 542
+        },
+        "name": "back",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 941,
+          "y": 890,
+          "w": 53,
+          "h": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 53,
+          "h": 54
+        },
+        "sourceSize": {
+          "w": 53,
+          "h": 54
+        },
+        "name": "box",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 931,
+          "y": 734,
+          "w": 34,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 22,
+          "w": 34,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_0",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 931,
+          "y": 734,
+          "w": 34,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 22,
+          "w": 34,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_0",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 78,
+          "w": 34,
+          "h": 80
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 18,
+          "w": 34,
+          "h": 80
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_1",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 240,
+          "w": 42,
+          "h": 82
+        },
+        "spriteSourceSize": {
+          "x": 42,
+          "y": 14,
+          "w": 42,
+          "h": 82
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_2",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 649,
+          "y": 256,
+          "w": 22,
+          "h": 66
+        },
+        "spriteSourceSize": {
+          "x": 50,
+          "y": 8,
+          "w": 22,
+          "h": 66
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_3",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 673,
+          "y": 262,
+          "w": 30,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 18,
+          "w": 30,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_4",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 705,
+          "y": 278,
+          "w": 52,
+          "h": 56
+        },
+        "spriteSourceSize": {
+          "x": 36,
+          "y": 42,
+          "w": 52,
+          "h": 56
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_5",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 705,
+          "y": 238,
+          "w": 52,
+          "h": 38
+        },
+        "spriteSourceSize": {
+          "x": 36,
+          "y": 60,
+          "w": 52,
+          "h": 38
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_6",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 550,
+          "w": 38,
+          "h": 38
+        },
+        "spriteSourceSize": {
+          "x": 44,
+          "y": 60,
+          "w": 38,
+          "h": 38
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_death_7",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 971,
+          "y": 810,
+          "w": 34,
+          "h": 78
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 20,
+          "w": 34,
+          "h": 78
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_1",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 967,
+          "y": 730,
+          "w": 34,
+          "h": 78
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 20,
+          "w": 34,
+          "h": 78
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_2",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 931,
+          "y": 812,
+          "w": 38,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 44,
+          "y": 22,
+          "w": 38,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_3",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 967,
+          "y": 654,
+          "w": 34,
+          "h": 74
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 24,
+          "w": 34,
+          "h": 74
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_4",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 657,
+          "y": 328,
+          "w": 34,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 22,
+          "w": 34,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_idle_5",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 747,
+          "y": 496,
+          "w": 56,
+          "h": 70
+        },
+        "spriteSourceSize": {
+          "x": 30,
+          "y": 28,
+          "w": 56,
+          "h": 70
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_0",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 406,
+          "w": 64,
+          "h": 78
+        },
+        "spriteSourceSize": {
+          "x": 26,
+          "y": 18,
+          "w": 64,
+          "h": 78
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_1",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 941,
+          "y": 946,
+          "w": 68,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 26,
+          "y": 12,
+          "w": 68,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_2",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 871,
+          "y": 660,
+          "w": 48,
+          "h": 72
+        },
+        "spriteSourceSize": {
+          "x": 38,
+          "y": 4,
+          "w": 48,
+          "h": 72
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_3",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 324,
+          "w": 50,
+          "h": 80
+        },
+        "spriteSourceSize": {
+          "x": 36,
+          "y": 2,
+          "w": 50,
+          "h": 80
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_4",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 879,
+          "y": 808,
+          "w": 50,
+          "h": 84
+        },
+        "spriteSourceSize": {
+          "x": 36,
+          "y": 8,
+          "w": 50,
+          "h": 84
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_jump_5",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 921,
+          "y": 662,
+          "w": 44,
+          "h": 70
+        },
+        "spriteSourceSize": {
+          "x": 38,
+          "y": 28,
+          "w": 44,
+          "h": 70
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_0",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 863,
+          "y": 586,
+          "w": 48,
+          "h": 72
+        },
+        "spriteSourceSize": {
+          "x": 34,
+          "y": 26,
+          "w": 48,
+          "h": 72
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_1",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 879,
+          "y": 734,
+          "w": 50,
+          "h": 72
+        },
+        "spriteSourceSize": {
+          "x": 40,
+          "y": 26,
+          "w": 50,
+          "h": 72
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_2",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 2,
+          "w": 42,
+          "h": 74
+        },
+        "spriteSourceSize": {
+          "x": 42,
+          "y": 24,
+          "w": 42,
+          "h": 74
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_3",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 160,
+          "w": 40,
+          "h": 78
+        },
+        "spriteSourceSize": {
+          "x": 48,
+          "y": 20,
+          "w": 40,
+          "h": 78
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_4",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 590,
+          "w": 50,
+          "h": 72
+        },
+        "spriteSourceSize": {
+          "x": 40,
+          "y": 26,
+          "w": 50,
+          "h": 72
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_5",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 664,
+          "w": 58,
+          "h": 68
+        },
+        "spriteSourceSize": {
+          "x": 44,
+          "y": 30,
+          "w": 58,
+          "h": 68
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_6",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 693,
+          "y": 336,
+          "w": 42,
+          "h": 70
+        },
+        "spriteSourceSize": {
+          "x": 52,
+          "y": 28,
+          "w": 42,
+          "h": 70
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_run_7",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 605,
+          "y": 486,
+          "w": 74,
+          "h": 80
+        },
+        "spriteSourceSize": {
+          "x": 12,
+          "y": 18,
+          "w": 74,
+          "h": 80
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_0",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 808,
+          "w": 66,
+          "h": 84
+        },
+        "spriteSourceSize": {
+          "x": 48,
+          "y": 14,
+          "w": 66,
+          "h": 84
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_1",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 681,
+          "y": 488,
+          "w": 64,
+          "h": 78
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 20,
+          "w": 64,
+          "h": 78
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_2",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 734,
+          "w": 66,
+          "h": 72
+        },
+        "spriteSourceSize": {
+          "x": 20,
+          "y": 26,
+          "w": 66,
+          "h": 72
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_3",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 671,
+          "y": 408,
+          "w": 34,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 22,
+          "w": 34,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_4",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 707,
+          "y": 410,
+          "w": 34,
+          "h": 76
+        },
+        "spriteSourceSize": {
+          "x": 46,
+          "y": 22,
+          "w": 34,
+          "h": 76
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "animation experiment x2_slash_5",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 568,
+          "w": 807,
+          "h": 454
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 807,
+          "h": 454
+        },
+        "sourceSize": {
+          "w": 807,
+          "h": 454
+        },
+        "name": "cool-background",
+        "regionIndex": -1
+      },
+      {
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 811,
+          "y": 894,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        },
+        "name": "sand",
+        "regionIndex": -1
+      }
+    ]},
+    {"frames": [{
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 418,
+        "h": 113
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 113
+      },
+      "name": "Pad_3_3",
+      "regionIndex": -1
+    }]}
+  ]
+}

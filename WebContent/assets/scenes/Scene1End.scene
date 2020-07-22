@@ -1,0 +1,42 @@
+{
+  "-app": "Scene Editor - Phaser Editor v2.1.8",
+  "-version": 1,
+  "compilerLang": "JAVA_SCRIPT_6",
+  "displayList": {
+    "-id": "dd7610cb-f8d0-42d1-837e-1536eafebb36",
+    "-type": "DisplayList",
+    "children": [
+      {
+        "-id": "85039ab1-a315-4588-ae31-8c0ddd79783f",
+        "-type": "Image",
+        "children": [],
+        "variableName": "cool-background",
+        "variableField": false,
+        "x": 403,
+        "y": 224.5,
+        "textureKey": "textures",
+        "textureFrame": "cool-background"
+      },
+      {
+        "-id": "f10a589e-3fd2-461a-96cc-0a814b8b8606",
+        "-type": "Text",
+        "children": [],
+        "variableName": "text",
+        "variableField": false,
+        "x": 133.9876708984375,
+        "y": 170.95062255859375,
+        "text": "Это было неплохо!",
+        "fontFamily": "Times New Roman",
+        "fontSize": "64px"
+      }
+    ]
+  },
+  "groups": {
+    "-id": "f574ecf1-4dac-4f24-9b32-ec397c0aaaef",
+    "-type": "Groups",
+    "children": []
+  },
+  "borderHeight": 450,
+  "methodContextType": "SCENE",
+  "sceneKey": "Scene1End"
+}
