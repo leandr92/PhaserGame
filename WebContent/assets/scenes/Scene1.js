@@ -26,14 +26,10 @@ class Scene1 extends Phaser.Scene {
 		var back = this.add.image(396.82578, 217.23251, "textures", "back");
 		back.setScale(1.8268911, 1.0276043);
 		
-		var exit = this.add.sprite(33.460117, 67.5502);
-		exit.setScale(-1.8095335, -3.6598043);
-		exit.setTintFill(0xACDFA4, 0xACDFA4, 0xACDFA4, 0xACDFA4);
-		
 		var sand = this.add.sprite(59.0, 135.0, "textures", "Pad_3_3");
 		sand.setScale(0.4449761, 0.24778761);
 		
-		var sand_1 = this.add.sprite(51.0, 16.0, "textures", "sand");
+		var sand_1 = this.add.sprite(51.0, 16.0);
 		sand_1.setScale(1.125, 0.171875);
 		sand_1.setAngle(17.611183);
 		
@@ -41,13 +37,13 @@ class Scene1 extends Phaser.Scene {
 		s_player.name = "s_player";
 		s_player.anims.play("idle");
 		
-		this.fExit = exit;
+		//this.add.sprite(40.651943, 70.80307, "textures", "door");
+		
 		this.fSand = sand;
 		this.fSand_1 = sand_1;
 		this.fS_player = s_player;
 		
 	}
-	
 	
 	
 	
@@ -70,9 +66,7 @@ class Scene1 extends Phaser.Scene {
 		player.setMass(30);
 		
 		
-		var exit = this.matter.add.sprite(33.460117, 67.5502,"","", {isStatic: true, isSensor: true});
-		exit.setScale(-1.8095335, -3.6598043);
-		exit.setTintFill(0xFF8040, 0xFF8040, 0xFF8040, 0xFF8040);
+		var exit = this.matter.add.sprite(40.65, 70,"textures","door", {isStatic: true, isSensor: true});
 		exit.depth = 0;
 		exit.body.label = "exit";
 		

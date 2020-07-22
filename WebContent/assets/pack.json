@@ -23,17 +23,12 @@
     },
     {
       "type": "sceneFile",
-      "key": "StartScene",
-      "url": "assets/scenes/StartScene.js"
-    },
-    {
-      "type": "sceneFile",
       "key": "Scene1Start",
       "url": "assets/scenes/Scene1Start.js"
     }
   ]},
   "meta": {
-    "generated": "1595445394116",
+    "generated": "1595450856713",
     "app": "Phaser Editor 2D - Asset Pack Editor - 2.1.8",
     "contentType": "Phaser v3 Asset Pack",
     "url": "https://phasereditor2d.com",

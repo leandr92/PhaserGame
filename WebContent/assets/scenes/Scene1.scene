@@ -20,23 +20,6 @@
         "textureFrame": "back"
       },
       {
-        "-id": "970bfff4-3b52-4cb8-b6f6-c91156116a97",
-        "-type": "Sprite",
-        "children": [],
-        "variableName": "exit",
-        "variableField": true,
-        "x": 33.46011734008789,
-        "y": 67.55020141601562,
-        "scaleX": -1.8095334768295288,
-        "scaleY": -3.659804344177246,
-        "isTinted": true,
-        "tintFill": true,
-        "tintTopLeft": 11329444,
-        "tintTopRight": 11329444,
-        "tintBottomLeft": 11329444,
-        "tintBottomRight": 11329444
-      },
-      {
         "-id": "f1b03d85-ea81-4dca-a4a2-9473f150600b",
         "-type": "Sprite",
         "children": [],
@@ -59,9 +42,7 @@
         "y": 16,
         "scaleX": 1.125,
         "scaleY": 0.171875,
-        "angle": 17.611183166503906,
-        "textureKey": "textures",
-        "textureFrame": "sand"
+        "angle": 17.611183166503906
       },
       {
         "-id": "66aa171c-8403-43b5-8b96-3524441548f7",
@@ -75,6 +56,17 @@
         "textureKey": "textures",
         "textureFrame": "animation experiment x2_idle_0",
         "autoPlayAnimKey": "idle"
+      },
+      {
+        "-id": "85ce5f55-bb8a-4aef-adc8-da577862de9f",
+        "-type": "Sprite",
+        "children": [],
+        "variableName": "door",
+        "variableField": false,
+        "x": 40.65194320678711,
+        "y": 70.80307006835938,
+        "textureKey": "textures",
+        "textureFrame": "door"
       }
     ]
   },
