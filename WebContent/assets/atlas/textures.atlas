@@ -37,7 +37,6 @@
     "Design/character/animation experiment x2_slash_4.png",
     "Design/character/animation experiment x2_slash_5.png",
     "Design/back.jpg",
-    "Design/sand.png",
     "Design/cool-background.png",
     "Design/Pad_3_3.png",
     "Design/door.png"
@@ -87,7 +86,7 @@
         "rotated": false,
         "frame": {
           "x": 2,
-          "y": 12,
+          "y": 24,
           "w": 601,
           "h": 542
         },
@@ -108,8 +107,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 941,
-          "y": 870,
+          "x": 892,
+          "y": 890,
           "w": 53,
           "h": 54
         },
@@ -131,7 +130,7 @@
         "rotated": false,
         "frame": {
           "x": 863,
-          "y": 562,
+          "y": 590,
           "w": 34,
           "h": 76
         },
@@ -153,7 +152,7 @@
         "rotated": false,
         "frame": {
           "x": 863,
-          "y": 562,
+          "y": 590,
           "w": 34,
           "h": 76
         },
@@ -175,7 +174,7 @@
         "rotated": false,
         "frame": {
           "x": 605,
-          "y": 42,
+          "y": 74,
           "w": 34,
           "h": 80
         },
@@ -197,7 +196,7 @@
         "rotated": false,
         "frame": {
           "x": 605,
-          "y": 204,
+          "y": 236,
           "w": 42,
           "h": 82
         },
@@ -218,8 +217,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 677,
-          "y": 64,
+          "x": 879,
+          "y": 748,
           "w": 22,
           "h": 66
         },
@@ -240,8 +239,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 691,
-          "y": 160,
+          "x": 693,
+          "y": 342,
           "w": 30,
           "h": 64
         },
@@ -262,8 +261,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 686,
-          "y": 418,
+          "x": 751,
+          "y": 440,
           "w": 52,
           "h": 56
         },
@@ -284,8 +283,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 605,
-          "y": 2,
+          "x": 751,
+          "y": 400,
           "w": 52,
           "h": 38
         },
@@ -306,8 +305,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 673,
-          "y": 302,
+          "x": 811,
+          "y": 552,
           "w": 38,
           "h": 38
         },
@@ -328,8 +327,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 649,
-          "y": 208,
+          "x": 863,
+          "y": 668,
           "w": 34,
           "h": 78
         },
@@ -350,8 +349,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 863,
-          "y": 640,
+          "x": 657,
+          "y": 326,
           "w": 34,
           "h": 78
         },
@@ -372,8 +371,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 719,
-          "y": 340,
+          "x": 903,
+          "y": 738,
           "w": 38,
           "h": 76
         },
@@ -394,8 +393,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 685,
-          "y": 226,
+          "x": 943,
+          "y": 662,
           "w": 34,
           "h": 74
         },
@@ -416,8 +415,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 899,
-          "y": 652,
+          "x": 943,
+          "y": 738,
           "w": 34,
           "h": 76
         },
@@ -438,8 +437,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 752,
-          "y": 484,
+          "x": 962,
+          "y": 952,
           "w": 56,
           "h": 70
         },
@@ -460,8 +459,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 686,
-          "y": 476,
+          "x": 605,
+          "y": 406,
           "w": 64,
           "h": 78
         },
@@ -482,8 +481,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 605,
-          "y": 362,
+          "x": 892,
+          "y": 946,
           "w": 68,
           "h": 76
         },
@@ -504,8 +503,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 937,
-          "y": 722,
+          "x": 899,
+          "y": 588,
           "w": 48,
           "h": 72
         },
@@ -526,8 +525,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 887,
-          "y": 800,
+          "x": 811,
+          "y": 666,
           "w": 50,
           "h": 80
         },
@@ -548,8 +547,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 811,
-          "y": 634,
+          "x": 605,
+          "y": 320,
           "w": 50,
           "h": 84
         },
@@ -570,8 +569,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 935,
-          "y": 576,
+          "x": 605,
+          "y": 2,
           "w": 44,
           "h": 70
         },
@@ -592,8 +591,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 935,
-          "y": 648,
+          "x": 931,
+          "y": 816,
           "w": 48,
           "h": 72
         },
@@ -615,7 +614,7 @@
         "rotated": false,
         "frame": {
           "x": 811,
-          "y": 560,
+          "y": 592,
           "w": 50,
           "h": 72
         },
@@ -636,8 +635,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 675,
-          "y": 342,
+          "x": 899,
+          "y": 662,
           "w": 42,
           "h": 74
         },
@@ -659,7 +658,7 @@
         "rotated": false,
         "frame": {
           "x": 605,
-          "y": 124,
+          "y": 156,
           "w": 40,
           "h": 78
         },
@@ -680,8 +679,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 939,
-          "y": 796,
+          "x": 879,
+          "y": 816,
           "w": 50,
           "h": 72
         },
@@ -702,8 +701,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 877,
-          "y": 730,
+          "x": 747,
+          "y": 498,
           "w": 58,
           "h": 68
         },
@@ -724,8 +723,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 647,
-          "y": 132,
+          "x": 707,
+          "y": 416,
           "w": 42,
           "h": 70
         },
@@ -746,8 +745,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 811,
-          "y": 800,
+          "x": 605,
+          "y": 486,
           "w": 74,
           "h": 80
         },
@@ -768,8 +767,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 941,
-          "y": 926,
+          "x": 811,
+          "y": 822,
           "w": 66,
           "h": 84
         },
@@ -790,8 +789,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 811,
-          "y": 720,
+          "x": 681,
+          "y": 488,
           "w": 64,
           "h": 78
         },
@@ -812,8 +811,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 605,
-          "y": 288,
+          "x": 811,
+          "y": 748,
           "w": 66,
           "h": 72
         },
@@ -834,8 +833,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 899,
-          "y": 574,
+          "x": 949,
+          "y": 584,
           "w": 34,
           "h": 76
         },
@@ -856,8 +855,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 641,
-          "y": 46,
+          "x": 671,
+          "y": 408,
           "w": 34,
           "h": 76
         },
@@ -879,7 +878,7 @@
         "rotated": false,
         "frame": {
           "x": 2,
-          "y": 556,
+          "y": 568,
           "w": 807,
           "h": 454
         },
@@ -900,8 +899,8 @@
         "trimmed": true,
         "rotated": false,
         "frame": {
-          "x": 605,
-          "y": 440,
+          "x": 811,
+          "y": 908,
           "w": 79,
           "h": 114
         },
@@ -916,28 +915,6 @@
           "h": 114
         },
         "name": "door",
-        "regionIndex": -1
-      },
-      {
-        "trimmed": true,
-        "rotated": false,
-        "frame": {
-          "x": 811,
-          "y": 882,
-          "w": 128,
-          "h": 128
-        },
-        "spriteSourceSize": {
-          "x": 0,
-          "y": 0,
-          "w": 128,
-          "h": 128
-        },
-        "sourceSize": {
-          "w": 128,
-          "h": 128
-        },
-        "name": "sand",
         "regionIndex": -1
       }
     ]},

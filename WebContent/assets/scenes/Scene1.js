@@ -92,7 +92,7 @@ class Scene1 extends Phaser.Scene {
 		
 		
 		var sprite_body = Bodies.rectangle(player.body.position.x, player.body.position.y, 30, 70);
-		console.log("123");
+		//console.log("123");
 		hitSensor = Bodies.circle(player.body.position.x, player.body.position.y, 34, { isSensor: true, label: 'hitSensor'});
 		
 		var compoundBody = Phaser.Physics.Matter.Matter.Body.create({
