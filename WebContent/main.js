@@ -8,16 +8,17 @@ window.addEventListener('load', function() {
     "type": Phaser.AUTO,
     "backgroundColor": "#000000",
     "parent": "game-container",
-    "physics": {"default": "matter",
+    "physics": {"default": "matter"
+			,
             matter: {
-                /*debug: {
+                debug: {
 	
 	                showBody: true,
 	
 	                showCollisions: true,
 	                collisionColor: 0xf5950c,
 
-					}*/
+					}
             	}
 				},
     "scale": {

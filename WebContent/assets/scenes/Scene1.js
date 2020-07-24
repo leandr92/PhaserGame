@@ -37,7 +37,7 @@ class Scene1 extends Phaser.Scene {
 		s_player.name = "s_player";
 		s_player.anims.play("idle");
 		
-		//this.add.sprite(40.651943, 70.80307, "textures", "door");
+		this.add.sprite(40.651943, 70.80307, "textures", "door");
 		
 		this.fSand = sand;
 		this.fSand_1 = sand_1;
@@ -205,11 +205,12 @@ class Scene1 extends Phaser.Scene {
 
 		this.hit();
 
-		if (Phaser.Math.Between(1, 100) % 50 == 0) {
+		if (Phaser.Math.Between(1, 100) % 30 == 0) {
 			this.dropBoxes();
 		}
 		
 		this.deleteObjectsOutOfScene();
+		this.endScene();
 		
 	}
 	
@@ -222,6 +223,22 @@ class Scene1 extends Phaser.Scene {
                 {
 	                 if (body.position.y > this.matter.world.walls.bottom.position.y){
 						body.gameObject.destroy();
+					}   
+                }
+			
+		 }, this)
+		
+	}
+	
+	// удаляем коробки вылетевшие за сцену
+	endScene(){
+		
+		this.matter.world.localWorld.bodies.forEach((body) => { 
+			
+			if (body.label == "player")
+                {
+	                 if (body.position.y > this.matter.world.walls.bottom.position.y){
+						this.scene.start('Scene1Fail');
 					}   
                 }
 			
@@ -295,7 +312,7 @@ class Scene1 extends Phaser.Scene {
 
 	dropBoxes() {
 
-		var boxCount = 8;
+		var boxCount = 9;
 
 		for (var i = 0; i <= boxCount; i++) {
 
@@ -303,7 +320,7 @@ class Scene1 extends Phaser.Scene {
 
 			var boxObject = this.matter.add.gameObject(box);
 			boxObject.body.label = "box";
-			boxObject.setScale(0.4 + Phaser.Math.Between(0, 0.4), 0.4 + Phaser.Math.Between(0, 0.4));
+			boxObject.setScale(0.2 + Phaser.Math.Between(-0.1, 0.4), 0.3 + Phaser.Math.Between(-0.1, 0.4));
 	
 			boxObject.hitPoints = 3;
 			boxObject.hittable = true;

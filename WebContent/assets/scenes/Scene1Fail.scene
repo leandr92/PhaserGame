@@ -1,0 +1,43 @@
+{
+  "-app": "Scene Editor - Phaser Editor v2.1.8",
+  "-version": 1,
+  "compilerLang": "JAVA_SCRIPT_6",
+  "displayList": {
+    "-id": "d9994d29-c7b5-40b5-ae5d-c939ce9f1cd7",
+    "-type": "DisplayList",
+    "children": [
+      {
+        "-id": "87e62f6f-222f-4ad7-9965-7ffdbf04baa4",
+        "-type": "Image",
+        "children": [],
+        "variableName": "cool-background",
+        "variableField": false,
+        "x": 397.7766418457031,
+        "y": 225.5106658935547,
+        "textureKey": "textures",
+        "textureFrame": "cool-background"
+      },
+      {
+        "-id": "6b66b59c-f8f9-44b0-b4b4-017c55245e9c",
+        "-type": "Text",
+        "children": [],
+        "variableName": "text",
+        "variableField": false,
+        "x": 39.40516662597656,
+        "y": 151.70819091796875,
+        "text": "Лавина снесла тебя.\r\nНажми F5 для перезапуска",
+        "align": "center",
+        "fontFamily": "Times New Roman",
+        "fontSize": "64px"
+      }
+    ]
+  },
+  "groups": {
+    "-id": "134641ee-2256-4491-9f44-303a94be4224",
+    "-type": "Groups",
+    "children": []
+  },
+  "borderHeight": 450,
+  "methodContextType": "SCENE",
+  "sceneKey": "Scene1Fail"
+}
